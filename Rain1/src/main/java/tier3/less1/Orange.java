@@ -1,0 +1,13 @@
+package tier3.less1;
+
+public class Orange extends Fruit {
+
+    public Orange(float weight) {
+        super(weight);
+    }
+
+    @Override
+    public String toString(){
+        return "апельсины";
+    }
+}
